@@ -1,6 +1,6 @@
 # Kaggle Boys and Girls Competition
 
-本專案為 Kaggle 競賽作業，目標是根據受訪者的身體測量數據、行為習慣與自我介紹文字，預測其性別標籤（Gender = 1 或 2）。最終版本以 `ensemble_ultimate_v4.ipynb` 為核心實作，整合了 NLP 語意嵌入、多重防漏交叉驗證與三檔位 Blending 融合策略。
+本專案為 Kaggle 競賽作業，目標是根據受訪者的身體測量數據、行為習慣與自我介紹文字，預測其性別標籤（Gender = 1 或 2）。最終版本以 `ensemble_ultimate_v4.ipynb` 為核心實作，整合了 NLP 語意嵌入（BGE-Large）、多重防漏交叉驗證、Stacking 集成學習與三檔位 Blending 融合策略，在 Stratified 10-Fold CV 上達到 **Accuracy 87.92%、ROC-AUC 0.9215**。
 
 ---
 
